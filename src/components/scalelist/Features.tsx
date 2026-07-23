@@ -16,8 +16,8 @@ export function Features() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl">
           <span className="overline">What you get</span>
-          <h2 className="mt-5 font-serif text-4xl md:text-5xl font-light tracking-tight text-foreground leading-[1.1]">
-            Everything a B2B lead finder <em className="italic font-normal">should give you</em>.
+          <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]">
+            Everything a B2B lead finder <span className="text-primary">should give you</span>.
           </h2>
         </div>
 
@@ -28,7 +28,7 @@ export function Features() {
               className="rounded-2xl border border-border bg-card p-8 shadow-sm hover:shadow-md hover:border-primary/30 transition-all"
             >
               <div className="flex items-center gap-3">
-                <span className="font-mono text-xs text-primary">{String(i + 1).padStart(2, "0")}</span>
+                <span className="font-semibold tabular-nums text-xs text-primary">{String(i + 1).padStart(2, "0")}</span>
                 <span className="h-px flex-1 bg-border" />
                 <f.icon className="h-4 w-4 text-muted-foreground" />
               </div>

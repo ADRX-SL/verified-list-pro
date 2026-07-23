@@ -8,21 +8,21 @@ export function Verified() {
           <div className="grid grid-cols-1 lg:grid-cols-[1.2fr_1fr] gap-10 items-center">
             <div>
               <span className="overline">Verified data</span>
-              <h2 className="mt-5 font-serif text-4xl md:text-5xl font-light tracking-tight text-foreground leading-[1.1]">
-                Verified data you can <em className="italic font-normal">actually send to</em>.
+              <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]">
+                Verified data you can <span className="text-primary">actually send to</span>.
               </h2>
               <p className="mt-5 text-lg text-muted-foreground leading-relaxed">
-                Scalelist verifies every professional email and mobile number before it reaches your list. Up to <span className="font-mono text-foreground">95%</span> coverage and around <span className="font-mono text-foreground">99%</span> email accuracy on verified, weekly refreshed data.
+                Scalelist verifies every professional email and mobile number before it reaches your list. Up to <span className="font-semibold tabular-nums text-foreground">95%</span> coverage and around <span className="font-semibold tabular-nums text-foreground">99%</span> email accuracy on verified, weekly refreshed data.
               </p>
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-sm text-foreground">
-                  <span className="flex items-center gap-0.5" style={{ color: "#F2D024" }}>
+                  <span className="flex items-center gap-0.5 text-primary">
                     {[0, 1, 2, 3, 4].map((i) => (
                       <Star key={i} className="h-3.5 w-3.5 fill-current" />
                     ))}
                   </span>
-                  <span className="font-mono">4.8/5</span> Google
+                  <span className="font-semibold tabular-nums">4.8/5</span> Google
                 </span>
                 <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-sm text-foreground">
                   <ShieldCheck className="h-4 w-4 text-primary" />
@@ -61,13 +61,13 @@ export function Verified() {
                         className="h-4 w-4 shrink-0"
                         style={{ color: r.ok ? "var(--color-verify)" : "hsl(var(--muted-foreground))" }}
                       />
-                      <span className="font-mono text-xs sm:text-sm text-foreground truncate">{r.label}</span>
+                      <span className="font-semibold tabular-nums text-xs sm:text-sm text-foreground truncate">{r.label}</span>
                     </div>
                     <span className="text-[10px] font-semibold uppercase tracking-widest text-muted-foreground shrink-0">{r.tag}</span>
                   </div>
                 ))}
               </div>
-              <p className="mt-5 font-mono text-[11px] text-muted-foreground">
+              <p className="mt-5 font-semibold tabular-nums text-[11px] text-muted-foreground">
                 Email 1 credit · Mobile 20 credits · Miss 0 credits
               </p>
             </div>

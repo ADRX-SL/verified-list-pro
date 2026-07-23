@@ -3,8 +3,8 @@ export function WhatIsAI() {
     <section className="py-20 md:py-28">
       <div className="mx-auto max-w-3xl px-6">
         <span className="overline">Definition</span>
-        <h2 className="mt-5 font-serif text-4xl md:text-5xl font-light tracking-tight text-foreground leading-[1.1]">
-          What is an <em className="italic font-normal">AI lead finder</em>?
+        <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]">
+          What is an <span className="text-primary">AI lead finder</span>?
         </h2>
         <div className="mt-8 rounded-2xl border border-border bg-card p-8 shadow-sm space-y-5">
           <p className="text-lg text-muted-foreground leading-relaxed">

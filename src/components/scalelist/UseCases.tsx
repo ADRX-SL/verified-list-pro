@@ -34,15 +34,15 @@ const rows = [
 
 function PromptCard() {
   return (
-    <div className="rounded-2xl bg-[#15171A] p-6 sm:p-8 shadow-sm text-[#EAF1FB]">
+    <div className="rounded-2xl bg-[#1a1a1a] p-6 sm:p-8 shadow-sm text-[#EAF1FB]">
       <div className="flex items-center justify-between">
-        <span className="font-mono text-[10px] uppercase tracking-widest rounded-full bg-primary/20 text-[#8DA9F0] px-2 py-1">
+        <span className="font-semibold tabular-nums text-[10px] uppercase tracking-widest rounded-full bg-primary/20 text-[#8DA9F0] px-2 py-1">
           ONE PROMPT
         </span>
-        <span className="font-mono text-[10px] text-white/40">scalelist › search</span>
+        <span className="font-semibold tabular-nums text-[10px] text-white/40">scalelist › search</span>
       </div>
-      <p className="mt-6 font-mono text-sm leading-relaxed text-[#EAF1FB]">
-        <span className="text-[#8DA9F0]">$</span> find CTOs in Financial Services companies in the US with over <span className="text-[#F2D024]">500</span> employees
+      <p className="mt-6 font-semibold tabular-nums text-sm leading-relaxed text-[#EAF1FB]">
+        <span className="text-primary">$</span> find CTOs in Financial Services companies in the US with over <span className="text-white font-semibold">500</span> employees
       </p>
       <div className="mt-6 rounded-xl border border-white/10 bg-white/[0.03] p-4">
         <div className="flex items-center justify-between">
@@ -51,12 +51,12 @@ function PromptCard() {
             <div className="text-xs text-white/60 truncate">CTO · Finovate Capital · New York</div>
           </div>
           <div className="flex items-center gap-1.5 shrink-0">
-            <span className="rounded-md bg-white/10 text-white px-2 py-1 text-[10px] font-mono">EMAIL</span>
-            <span className="rounded-md bg-primary text-primary-foreground px-2 py-1 text-[10px] font-mono">MOBILE</span>
+            <span className="rounded-md bg-white/10 text-white px-2 py-1 text-[10px] font-semibold tabular-nums">EMAIL</span>
+            <span className="rounded-md bg-primary text-primary-foreground px-2 py-1 text-[10px] font-semibold tabular-nums">MOBILE</span>
           </div>
         </div>
       </div>
-      <p className="mt-3 font-mono text-[11px] text-white/40">
+      <p className="mt-3 font-semibold tabular-nums text-[11px] text-white/40">
         + <span className="text-white/70">1,239</span> matching contacts
       </p>
     </div>
@@ -69,7 +69,7 @@ function FiltersCard() {
     <div className="rounded-2xl border border-border bg-card p-6 sm:p-8 shadow-sm">
       <div className="flex items-center justify-between">
         <span className="overline">Criteria</span>
-        <span className="font-mono text-xs text-muted-foreground">campaign · q3-emea</span>
+        <span className="font-semibold tabular-nums text-xs text-muted-foreground">campaign · q3-emea</span>
       </div>
 
       <div className="mt-5 space-y-4">
@@ -85,7 +85,7 @@ function FiltersCard() {
           <div className="text-xs text-muted-foreground mb-2">Headcount</div>
           <div className="flex flex-wrap gap-1.5">
             {chips.slice(2, 3).map((c) => (
-              <span key={c} className="rounded-full bg-accent text-accent-foreground px-2.5 py-1 text-xs font-mono">{c}</span>
+              <span key={c} className="rounded-full bg-accent text-accent-foreground px-2.5 py-1 text-xs font-semibold tabular-nums">{c}</span>
             ))}
           </div>
         </div>
@@ -109,7 +109,7 @@ function FiltersCard() {
 
       <div className="mt-6 flex items-center justify-between rounded-xl border border-primary/30 bg-primary/5 px-4 py-3">
         <span className="text-sm text-foreground">Matching contacts</span>
-        <span className="font-mono text-2xl font-bold text-primary">1,240</span>
+        <span className="font-semibold tabular-nums text-2xl font-bold text-primary">1,240</span>
       </div>
     </div>
   );
@@ -128,7 +128,7 @@ function ExportCard() {
           <Download className="h-3.5 w-3.5 text-primary" />
           <span className="overline">Enriched export</span>
         </div>
-        <span className="font-mono text-[11px] text-muted-foreground">apac-cto-q3.csv</span>
+        <span className="font-semibold tabular-nums text-[11px] text-muted-foreground">apac-cto-q3.csv</span>
       </div>
 
       <div className="mt-4 overflow-hidden rounded-xl border border-border">
@@ -143,9 +143,9 @@ function ExportCard() {
             </div>
             <div className="flex items-center gap-1.5 text-xs text-foreground">
               <CheckCircle2 className="h-3.5 w-3.5 shrink-0" style={{ color: "var(--color-verify)" }} />
-              <span className="font-mono truncate">verified</span>
+              <span className="font-semibold tabular-nums truncate">verified</span>
             </div>
-            <div className="font-mono text-xs text-foreground truncate">{r.mobile}</div>
+            <div className="font-semibold tabular-nums text-xs text-foreground truncate">{r.mobile}</div>
           </div>
         ))}
       </div>
@@ -153,9 +153,9 @@ function ExportCard() {
       <div className="mt-4 flex items-center justify-between text-xs">
         <div className="flex items-center gap-1.5 text-muted-foreground">
           <Coins className="h-3.5 w-3.5" />
-          <span>Email <span className="font-mono text-foreground">1</span> · Mobile <span className="font-mono text-foreground">20</span> · Miss <span className="font-mono text-foreground">0</span></span>
+          <span>Email <span className="font-semibold tabular-nums text-foreground">1</span> · Mobile <span className="font-semibold tabular-nums text-foreground">20</span> · Miss <span className="font-semibold tabular-nums text-foreground">0</span></span>
         </div>
-        <span className="font-mono text-foreground">63 credits used</span>
+        <span className="font-semibold tabular-nums text-foreground">63 credits used</span>
       </div>
     </div>
   );
@@ -169,8 +169,8 @@ export function UseCases() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl">
           <span className="overline">How you can use it</span>
-          <h2 className="mt-5 font-serif text-4xl md:text-5xl font-light tracking-tight text-foreground leading-[1.1]">
-            From an idea to an outbound list with <em className="italic font-normal">one lead finder tool</em>.
+          <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]">
+            From an idea to an outbound list with <span className="text-primary">one lead finder tool</span>.
           </h2>
         </div>
 
@@ -184,8 +184,8 @@ export function UseCases() {
                 className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center"
               >
                 <div className={mediaRight ? "lg:order-1" : "lg:order-2"}>
-                  <span className="font-mono text-xs text-primary">{String(i + 1).padStart(2, "0")} / 03</span>
-                  <h3 className="mt-3 font-serif text-3xl md:text-4xl font-light tracking-tight text-foreground leading-[1.15]">
+                  <span className="font-semibold tabular-nums text-xs text-primary">{String(i + 1).padStart(2, "0")} / 03</span>
+                  <h3 className="mt-3 text-3xl md:text-4xl font-extrabold tracking-tight text-foreground leading-[1.15]">
                     {r.title}
                   </h3>
                   <p className="mt-4 text-lg text-muted-foreground leading-relaxed">{r.body}</p>

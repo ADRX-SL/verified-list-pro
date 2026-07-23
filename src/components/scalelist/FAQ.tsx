@@ -23,8 +23,8 @@ export function FAQ() {
       <div className="mx-auto max-w-3xl px-6">
         <div>
           <span className="overline">FAQ</span>
-          <h2 className="mt-5 font-serif text-4xl md:text-5xl font-light tracking-tight text-foreground leading-[1.1]">
-            Lead Finder questions, <em className="italic font-normal">answered</em>.
+          <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]">
+            Lead Finder questions, <span className="text-primary">answered</span>.
           </h2>
         </div>
 
@@ -37,7 +37,7 @@ export function FAQ() {
             >
               <AccordionTrigger className="text-left text-base font-semibold text-foreground hover:no-underline py-5">
                 <span className="flex items-center gap-4">
-                  <span className="font-mono text-xs text-primary shrink-0">{String(i + 1).padStart(2, "0")}</span>
+                  <span className="font-semibold tabular-nums text-xs text-primary shrink-0">{String(i + 1).padStart(2, "0")}</span>
                   <span>{f.q}</span>
                 </span>
               </AccordionTrigger>
