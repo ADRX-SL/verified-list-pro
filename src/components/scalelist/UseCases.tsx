@@ -42,7 +42,7 @@ function PromptCard() {
         <span className="font-semibold tabular-nums text-[10px] text-white/40">scalelist › search</span>
       </div>
       <p className="mt-6 font-semibold tabular-nums text-sm leading-relaxed text-[#EAF1FB]">
-        <span className="text-[#8DA9F0]">$</span> find CTOs in Financial Services companies in the US with over <span className="text-[#F2D024]">500</span> employees
+        <span className="text-primary">$</span> find CTOs in Financial Services companies in the US with over <span className="text-white font-semibold">500</span> employees
       </p>
       <div className="mt-6 rounded-xl border border-white/10 bg-white/[0.03] p-4">
         <div className="flex items-center justify-between">

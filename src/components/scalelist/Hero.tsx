@@ -16,7 +16,7 @@ export function Hero() {
         <span className="overline">AI B2B LEAD FINDER</span>
 
         <h1 className="mt-6 text-5xl sm:text-6xl md:text-7xl font-extrabold tracking-tight leading-[1.05] text-foreground">
-          AI B2B lead finder: describe your ideal customer, get a <span className="spark"><span className="text-primary">ready to use</span></span> list.
+          AI B2B lead finder: describe your ideal customer, get a <span className="text-primary">ready to use</span> list.
         </h1>
 
         <p className="mt-8 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
