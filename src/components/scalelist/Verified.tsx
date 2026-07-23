@@ -17,7 +17,7 @@ export function Verified() {
 
               <div className="mt-8 flex flex-wrap gap-3">
                 <span className="inline-flex items-center gap-2 rounded-full border border-border bg-background px-4 py-2 text-sm text-foreground">
-                  <span className="flex items-center gap-0.5" style={{ color: "#F2D024" }}>
+                  <span className="flex items-center gap-0.5 text-primary">
                     {[0, 1, 2, 3, 4].map((i) => (
                       <Star key={i} className="h-3.5 w-3.5 fill-current" />
                     ))}
