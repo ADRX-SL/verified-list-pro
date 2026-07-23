@@ -81,9 +81,9 @@ export function Footer() {
       <div className="border-t border-border">
         <div className="mx-auto max-w-7xl px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-sm text-muted-foreground">
           <div className="flex items-center gap-2 flex-wrap justify-center">
-            <span className="font-mono">© 2026 Scalelist</span>
+            <span className="font-semibold tabular-nums">© 2026 Scalelist</span>
             <span aria-hidden>·</span>
-            <a href="mailto:hello@scalelist.com" className="hover:text-foreground font-mono">hello@scalelist.com</a>
+            <a href="mailto:hello@scalelist.com" className="hover:text-foreground font-semibold tabular-nums">hello@scalelist.com</a>
           </div>
           <div className="flex items-center gap-4">
             <a href="https://www.linkedin.com/company/scalelist" className="hover:text-foreground">LinkedIn</a>

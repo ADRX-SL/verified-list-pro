@@ -9,8 +9,8 @@ export function PlainEnglish() {
     <section className="py-20 md:py-28">
       <div className="mx-auto max-w-3xl px-6">
         <span className="overline">Plain English</span>
-        <h2 className="mt-5 font-serif text-4xl md:text-5xl font-light tracking-tight text-foreground leading-[1.1]">
-          AI sales prospecting in <em className="italic font-normal">plain English</em>.
+        <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]">
+          AI sales prospecting in <span className="text-primary">plain English</span>.
         </h2>
         <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
           Scalelist turns AI sales prospecting into a single sentence. Instead of learning a query builder or stacking filters, you write the prospect you want the way you'd describe it to a colleague, and the AI prospecting tool maps it to structured criteria and returns the matching list.

@@ -11,8 +11,8 @@ export function Stats() {
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl">
           <span className="overline">By the numbers</span>
-          <h2 className="mt-5 font-serif text-4xl md:text-5xl font-light tracking-tight text-foreground leading-[1.1]">
-            The list you get, <em className="italic font-normal">measured</em>.
+          <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]">
+            The list you get, <span className="text-primary">measured</span>.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground leading-relaxed">
             The lead finder software, measured on the same input lists across eight B2B data providers. Every miss costs zero credits.
@@ -25,8 +25,8 @@ export function Stats() {
               key={s.label}
               className="rounded-2xl border border-border bg-card p-6 sm:p-8 shadow-sm"
             >
-              <div className="font-mono text-xs text-primary">{String(i + 1).padStart(2, "0")}</div>
-              <div className="mt-4 font-mono text-4xl sm:text-5xl font-bold text-foreground tracking-tight">
+              <div className="font-semibold tabular-nums text-xs text-primary">{String(i + 1).padStart(2, "0")}</div>
+              <div className="mt-4 font-semibold tabular-nums text-4xl sm:text-5xl font-bold text-foreground tracking-tight">
                 {s.value}
               </div>
               <div className="mt-4 text-[11px] font-semibold uppercase tracking-widest text-muted-foreground">

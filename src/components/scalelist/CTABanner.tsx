@@ -2,16 +2,16 @@ import { ArrowRight } from "lucide-react";
 
 export function CTABanner() {
   return (
-    <section className="py-20 md:py-28 text-white" style={{ backgroundColor: "#15171A" }}>
+    <section className="py-20 md:py-28 text-white" style={{ backgroundColor: "#1a1a1a" }}>
       <div className="mx-auto max-w-4xl px-6 text-center">
         <span className="font-sans font-semibold uppercase tracking-[0.18em] text-xs" style={{ color: "#8DA9F0" }}>
           Get started
         </span>
-        <h2 className="mt-6 font-serif text-4xl md:text-6xl font-light tracking-tight leading-[1.05] text-white">
-          Unlock B2B emails and mobiles, <em className="italic font-normal">for free</em>.
+        <h2 className="mt-6 text-4xl md:text-6xl font-extrabold tracking-tight leading-[1.05] text-white">
+          Unlock B2B emails and mobiles, <span className="text-primary">for free</span>.
         </h2>
         <p className="mt-6 text-lg text-white/70 leading-relaxed max-w-2xl mx-auto">
-          <span className="font-mono">50</span> credits on the house. No card required.
+          <span className="font-semibold tabular-nums">50</span> credits on the house. No card required.
         </p>
         <div className="mt-10 flex flex-col sm:flex-row gap-3 justify-center">
           <a

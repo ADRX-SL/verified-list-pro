@@ -15,8 +15,8 @@ export function Hero() {
       <div className="mx-auto max-w-3xl px-6 text-center">
         <span className="overline">AI B2B LEAD FINDER</span>
 
-        <h1 className="mt-6 font-serif text-5xl sm:text-6xl md:text-7xl font-light tracking-tight leading-[1.05] text-foreground">
-          AI B2B lead finder: describe your ideal customer, get a <span className="spark"><em className="italic font-normal">ready to use</em></span> list.
+        <h1 className="mt-6 text-5xl sm:text-6xl md:text-7xl font-extrabold tracking-tight leading-[1.05] text-foreground">
+          AI B2B lead finder: describe your ideal customer, get a <span className="spark"><span className="text-primary">ready to use</span></span> list.
         </h1>
 
         <p className="mt-8 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
@@ -35,7 +35,7 @@ export function Hero() {
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 mt-2 px-2">
               <div className="hidden sm:flex items-center gap-2 text-xs text-muted-foreground">
                 <Coins className="h-3.5 w-3.5" />
-                <span>Free to explore. <span className="font-mono">1</span> credit per email, <span className="font-mono">20</span> per mobile.</span>
+                <span>Free to explore. <span className="font-semibold tabular-nums">1</span> credit per email, <span className="font-semibold tabular-nums">20</span> per mobile.</span>
               </div>
               <a
                 href="https://app.scalelist.com/auth/signup?redirectUrl=%2Fapp%2Fdashboard"
@@ -60,7 +60,7 @@ export function Hero() {
           </div>
 
           <p className="mt-6 text-sm text-muted-foreground">
-            <span className="font-mono">50</span> free credits included. No credit card required.
+            <span className="font-semibold tabular-nums">50</span> free credits included. No credit card required.
           </p>
         </div>
       </div>
