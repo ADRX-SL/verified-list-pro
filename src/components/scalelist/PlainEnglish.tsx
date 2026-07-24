@@ -1,6 +1,6 @@
 const chips = [
-  "VPs of Engineering at Series B SaaS companies in Germany",
-  "Owners of ecommerce brands in Australia with 10 to 50 staff",
+  "VPs of Engineering at Series B SaaS companies in Boston",
+  "Owners of ecommerce brands in Florida with 10 to 50 staff",
   "Heads of Marketing at healthcare companies in the US, 200+ employees",
 ];
 
