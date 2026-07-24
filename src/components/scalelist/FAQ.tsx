@@ -13,7 +13,7 @@ export const faqs = [
   { q: "What's the difference between a lead finder and a contact database?", a: "A contact database is the raw data. A lead finder is the search layer on top that turns your description into a usable, verified list." },
   { q: "What filters can I use?", a: "You can target by job title, industry, geography, and company size, expressed in natural language." },
   { q: "Are the emails and mobile numbers verified?", a: "Yes. Scalelist reports around 99% email verification accuracy and up to 95% of contacts verified, with data sourced through a waterfall across 10+ providers." },
-  { q: "Does Lead Finder cover APAC prospects?", a: "Yes, and it is Scalelist's strongest region relative to competitors. On the same benchmark lists it returned 76% email and 75% mobile coverage in APAC, about 9 times more mobile numbers than Apollo, and ranked number one on mobile coverage across North America, EMEA, and APAC." },
+  { q: "Does Lead Finder cover US prospects?", a: "Yes. The United States is a core market for Scalelist, with verified US work emails and mobile/cell numbers and coverage across all 50 states. On our benchmark lists Scalelist returned a 92% email hit rate and 87% mobile coverage in North America." },
   { q: "How much does a B2B lead finder cost?", a: "A verified email costs 1 credit and a verified mobile number costs 20 credits. New accounts get 50 free credits, no credit card required." },
 ];
 
