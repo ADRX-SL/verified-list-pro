@@ -13,9 +13,9 @@ import { FAQ, faqs } from "@/components/scalelist/FAQ";
 import { CTABanner } from "@/components/scalelist/CTABanner";
 import { Footer } from "@/components/scalelist/Footer";
 
-const TITLE = "B2B Prospecting Tool & Lead Generation Software for US Teams | Scalelist";
+const TITLE = "AI B2B Lead Finder for US Teams: Build Prospect Lists Fast | Scalelist";
 const DESCRIPTION =
-  "Scalelist is a B2B prospecting tool and lead generation software for US teams. Describe your ideal customer in plain English and get verified US work emails and mobile numbers. Try free.";
+  "Scalelist is an AI B2B lead finder for US teams. Describe your ideal customer in plain English and get a ready to use list with verified US work emails and mobile numbers. Try free.";
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -35,13 +35,12 @@ const softwareJsonLd = {
   url: "https://scalelist.com/lead-finder/",
   description: DESCRIPTION,
   keywords: [
-    "b2b prospecting tool",
-    "lead generation software",
+    "ai b2b lead finder",
     "b2b lead finder",
-    "b2b contact database",
-    "sales prospecting tool",
     "ai lead finder",
     "lead finder",
+    "lead generation software",
+    "b2b contact database",
     "b2b lead generation",
   ],
   offers: {

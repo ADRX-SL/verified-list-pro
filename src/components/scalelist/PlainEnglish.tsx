@@ -13,7 +13,7 @@ export function PlainEnglish() {
           AI sales prospecting in <span className="text-primary">plain English</span>.
         </h2>
         <p className="mt-6 text-lg text-muted-foreground leading-relaxed">
-          Scalelist turns AI sales prospecting into a single sentence. Instead of learning a query builder or stacking filters, you write the prospect you want the way you'd describe it to a colleague, and the AI prospecting tool maps it to structured criteria and returns the matching list.
+          Scalelist turns AI sales prospecting into a single sentence. Instead of learning a query builder or stacking filters, you write the prospect you want the way you'd describe it to a colleague, and the AI lead finder maps it to structured criteria and returns the matching list.
         </p>
 
         <div className="mt-8 flex flex-wrap gap-2">
