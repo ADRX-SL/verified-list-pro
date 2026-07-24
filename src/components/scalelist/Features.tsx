@@ -17,7 +17,7 @@ export function Features() {
         <div className="max-w-3xl">
           <span className="overline">What you get</span>
           <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]">
-            Everything a B2B lead finder — and lead generation software — <span className="text-primary">should give you</span>.
+            Everything a B2B lead finder and lead generation software <span className="text-primary">should give you</span>.
           </h2>
         </div>
 
