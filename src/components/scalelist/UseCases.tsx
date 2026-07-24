@@ -20,12 +20,12 @@ const rows = [
     ],
   },
   {
-    title: "Find direct dials for cold calling, even in APAC",
-    body: "Filter to a persona and reveal verified mobile numbers where most databases fall short. Scalelist ranks number one on mobile coverage across North America, EMEA, and APAC.",
+    title: "Find direct dials for cold calling across the United States",
+    body: "Filter to a persona and reveal verified US cell and direct-dial numbers where most databases fall short. Scalelist delivers strong nationwide coverage so your reps reach real American decision makers.",
     bullets: [
-      "Verified mobile numbers",
-      "Strongest coverage in Asia Pacific",
-      "About 9 times more APAC mobiles than Apollo",
+      "Verified US mobile and direct-dial numbers",
+      "Coverage across all 50 states",
+      "Higher US cell coverage than most databases",
     ],
   },
 ];
@@ -117,9 +117,9 @@ function FiltersCard() {
 
 function ExportCard() {
   const rowsData = [
-    { name: "Wei Zhang", role: "Head of Sales · Singapore", mobile: "+65 9123 4728" },
-    { name: "Aiko Tanaka", role: "VP Sales · Tokyo", mobile: "+81 80 4412 9903" },
-    { name: "Rohan Mehta", role: "Sales Director · Bengaluru", mobile: "+91 98455 21107" },
+    { name: "Sarah Chen", role: "CTO · San Francisco", mobile: "+1 415 555 0182" },
+    { name: "Marcus Lee", role: "VP Sales · Austin", mobile: "+1 512 555 0147" },
+    { name: "Priya Nair", role: "Sales Director · Chicago", mobile: "+1 312 555 0193" },
   ];
   return (
     <div className="rounded-2xl border border-border bg-card p-5 sm:p-6 shadow-sm">
@@ -128,7 +128,7 @@ function ExportCard() {
           <Download className="h-3.5 w-3.5 text-primary" />
           <span className="overline">Enriched export</span>
         </div>
-        <span className="font-semibold tabular-nums text-[11px] text-muted-foreground">apac-cto-q3.csv</span>
+        <span className="font-semibold tabular-nums text-[11px] text-muted-foreground">us-cto-q3.csv</span>
       </div>
 
       <div className="mt-4 overflow-hidden rounded-xl border border-border">
