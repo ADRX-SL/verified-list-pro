@@ -6,7 +6,7 @@ import {
 } from "@/components/ui/accordion";
 
 export const faqs = [
-  { q: "What is an AI lead finder?", a: "An AI lead finder is a prospecting tool that finds real, contactable B2B prospects from a description of your ideal customer, instead of making you stack filters or already know the names." },
+  { q: "What is an AI lead finder?", a: "An AI lead finder is a lead generation tool that finds real, contactable B2B prospects from a description of your ideal customer, instead of making you stack filters or already know the names." },
   { q: "What is a B2B lead finder?", a: "A B2B lead finder searches a prospecting database to build a list of business contacts that match your ideal customer, then reveals their verified work emails and mobile numbers." },
   { q: "How does an AI lead finder work?", a: "You describe your target in plain English. The AI maps it to structured criteria such as title, industry, geography, and company size, and returns matching people with company context, ready to reveal and export." },
   { q: "How is Lead Finder different from Email Finder and Mobile Finder?", a: "Lead Finder builds a list of prospects from Scalelist's database when you don't have names yet. Email Finder and Mobile Finder reveal verified contact details for people you already have. They work together." },
