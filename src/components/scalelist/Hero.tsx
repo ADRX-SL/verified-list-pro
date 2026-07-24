@@ -3,8 +3,8 @@ import { ArrowRight, Coins } from "lucide-react";
 
 const examples = [
   "Founders of software companies in San Francisco, 50 to 200 employees",
-  "Owners of retail companies in the UK with under 200 people",
-  "VPs of Engineering at Series B SaaS companies in Germany",
+  "Owners of retail companies in Texas with under 200 people",
+  "VPs of Engineering at Series B SaaS companies in New York",
 ];
 
 export function Hero() {

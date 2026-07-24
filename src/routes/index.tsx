@@ -13,9 +13,9 @@ import { FAQ, faqs } from "@/components/scalelist/FAQ";
 import { CTABanner } from "@/components/scalelist/CTABanner";
 import { Footer } from "@/components/scalelist/Footer";
 
-const TITLE = "AI B2B Lead Finder: Build Prospect Lists Fast | Scalelist";
+const TITLE = "AI B2B Lead Finder for the US: Build American Prospect Lists Fast | Scalelist";
 const DESCRIPTION =
-  "Describe your ideal customer in plain English and Scalelist's AI B2B Lead Finder builds a targeted list with verified work emails and mobile numbers. Try free.";
+  "Target US B2B prospects in plain English. Scalelist's AI Lead Finder builds American contact lists with verified US work emails and mobile/cell numbers. Try free.";
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -33,6 +33,19 @@ const softwareJsonLd = {
   name: "Scalelist Lead Finder",
   applicationCategory: "BusinessApplication",
   url: "https://scalelist.com/lead-finder/",
+  description: DESCRIPTION,
+  keywords: [
+    "AI B2B lead finder",
+    "B2B lead finder",
+    "lead finder software",
+    "AI sales prospecting",
+    "US B2B lead finder",
+    "B2B lead finder USA",
+    "US lead database",
+    "American B2B contact data",
+    "US sales prospecting tool",
+    "find US decision makers",
+  ],
   offers: {
     "@type": "Offer",
     price: "0",
