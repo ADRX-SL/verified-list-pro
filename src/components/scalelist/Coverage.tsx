@@ -22,10 +22,10 @@ export function Coverage() {
             Coverage
           </span>
           <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-[1.1]">
-            The data other tools miss, especially in <span className="text-primary">APAC</span>.
+            The verified <span className="text-primary">US contact data</span> other tools miss.
           </h2>
           <p className="mt-5 text-lg text-white/70 leading-relaxed">
-            We ran the same lead lists through <span className="font-semibold tabular-nums">8</span> B2B data providers across three regions. Scalelist returned the highest coverage of any tool tested and ranked number one on mobile coverage in all three.
+            We ran the same lead lists through <span className="font-semibold tabular-nums">8</span> B2B data providers, leading with the United States. Scalelist returned the highest coverage of any tool tested, with strong verified US emails and mobile numbers, and held that lead across EMEA and APAC too.
           </p>
         </div>
 
@@ -67,12 +67,14 @@ export function Coverage() {
               Signal
             </span>
             <div className="mt-6 font-semibold tabular-nums text-6xl font-bold text-white leading-none">
-              9×
+              87%
             </div>
-            <p className="mt-5 text-2xl font-semibold leading-snug text-white">
-              In APAC, Scalelist returned about <span className="text-primary">nine times more</span> mobile numbers than Apollo.
+            <p className="mt-5 text-[11px] font-semibold uppercase tracking-widest text-white/60">
+              Verified US mobile coverage
             </p>
-            <p className="mt-4 font-semibold tabular-nums text-xs text-white/50">75% vs 8%</p>
+            <p className="mt-5 text-2xl font-semibold leading-snug text-white">
+              <span className="text-primary">92% email hit rate</span> on US B2B contacts.
+            </p>
           </div>
         </div>
       </div>
