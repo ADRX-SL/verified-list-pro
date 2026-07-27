@@ -4,7 +4,7 @@ const rows: { old: string; scalelist: string }[] = [
   { old: "Learn a query builder and stack filters", scalelist: "Describe your ICP in one sentence" },
   { old: "Export from LinkedIn and clean spreadsheets", scalelist: "Contact-ready list in one place" },
   { old: "Pay for unverified data you can't send to", scalelist: "Pay only for verified contacts you reveal" },
-  { old: "Thin coverage outside North America", scalelist: "Strong verified coverage worldwide, especially APAC" },
+  { old: "Thin coverage outside North America", scalelist: "Strong verified coverage worldwide" },
   { old: "Separate tools for search, email, and phone", scalelist: "Search, verified email, and mobile in one flow" },
 ];
 

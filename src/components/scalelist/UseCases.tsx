@@ -14,7 +14,7 @@ const rows = [
     title: "Target precisely, not approximately",
     body: "Scalelist maps your sentence to structured criteria, so the list matches exactly who you meant.",
     bullets: [
-      "Filter by title, seniority, industry, geography, and headcount",
+      "Understands title, seniority, industry, geography, and headcount",
       "See the matching count before you spend a credit",
       "Adjust and rebuild instantly",
     ],
@@ -42,13 +42,13 @@ function PromptCard() {
         <span className="font-semibold tabular-nums text-[10px] text-white/40">scalelist › search</span>
       </div>
       <p className="mt-6 font-semibold tabular-nums text-sm leading-relaxed text-[#EAF1FB]">
-        <span className="text-primary">$</span> find Heads of Growth in SaaS companies in APAC with over <span className="text-white font-semibold">200</span> employees
+        <span className="text-primary">$</span> find Heads of Growth at SaaS companies in the US with over <span className="text-white font-semibold">200</span> employees
       </p>
       <div className="mt-6 rounded-xl border border-white/10 bg-white/[0.03] p-4">
         <div className="flex items-center justify-between">
           <div className="min-w-0">
-            <div className="text-sm font-semibold truncate">Sarah Chen</div>
-            <div className="text-xs text-white/60 truncate">CTO · Finovate · Singapore</div>
+            <div className="text-sm font-semibold truncate">Emily Carter</div>
+            <div className="text-xs text-white/60 truncate">Head of Growth · Northwind · San Francisco</div>
           </div>
           <div className="flex items-center gap-1.5 shrink-0">
             <span className="rounded-md bg-white/10 text-white px-2 py-1 text-[10px] font-semibold tabular-nums">EMAIL</span>
@@ -64,12 +64,12 @@ function PromptCard() {
 }
 
 function FiltersCard() {
-  const chips = ["SaaS", "Series B+", "50–500", "Singapore", "Australia", "Japan", "VP Engineering", "CTO"];
+  const chips = ["SaaS", "Series B+", "50-500", "United States", "New York", "California", "VP Sales", "CTO"];
   return (
     <div className="rounded-2xl border border-border bg-card p-6 sm:p-8 shadow-sm">
       <div className="flex items-center justify-between">
-        <span className="overline">Criteria</span>
-        <span className="font-semibold tabular-nums text-xs text-muted-foreground">campaign · q3-apac</span>
+        <span className="overline">Understood from your prompt</span>
+        <span className="font-semibold tabular-nums text-xs text-muted-foreground">campaign · q3-us</span>
       </div>
 
       <div className="mt-5 space-y-4">
@@ -117,9 +117,9 @@ function FiltersCard() {
 
 function ExportCard() {
   const rowsData = [
-    { name: "Sarah Chen", role: "CTO · Singapore", mobile: "+65 8123 4567" },
-    { name: "James Wu", role: "VP Sales · Sydney", mobile: "+61 412 345 678" },
-    { name: "Aarav Mehta", role: "Head of Growth · Tokyo", mobile: "+81 90 1234 5678" },
+    { name: "Emily Carter", role: "Head of Growth · San Francisco", mobile: "+1 415 555 0173" },
+    { name: "Michael Torres", role: "VP Sales · Austin", mobile: "+1 512 555 0142" },
+    { name: "David Kim", role: "CTO · New York", mobile: "+1 212 555 0198" },
   ];
   return (
     <div className="rounded-2xl border border-border bg-card p-5 sm:p-6 shadow-sm">
@@ -128,7 +128,7 @@ function ExportCard() {
           <Download className="h-3.5 w-3.5 text-primary" />
           <span className="overline">Enriched export</span>
         </div>
-        <span className="font-semibold tabular-nums text-[11px] text-muted-foreground">apac-leads-q3.csv</span>
+        <span className="font-semibold tabular-nums text-[11px] text-muted-foreground">us-leads-q3.csv</span>
       </div>
 
       <div className="mt-4 overflow-hidden rounded-xl border border-border">
