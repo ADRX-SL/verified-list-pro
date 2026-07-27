@@ -1,13 +1,10 @@
-import { Coins, Database, Globe, Layers, Phone, Search } from "lucide-react";
+import { Filter, Mail, Phone } from "lucide-react";
 import type { LucideIcon } from "lucide-react";
 
 const features: { icon: LucideIcon; title: string; desc: string }[] = [
-  { icon: Search, title: "Plain English search", desc: "Skip the filter wall. Describe your ICP in one sentence and get the matching people back." },
-  { icon: Phone, title: "Verified emails and mobiles", desc: "Every list comes with verified work emails (1 credit each) and mobile numbers (20 credits each)." },
-  { icon: Globe, title: "High worldwide mobile coverage", desc: "Strong verified coverage of cell and direct-dial numbers worldwide, with particularly high hit rates across APAC where most databases fall short." },
-  { icon: Database, title: "Push to your CRM", desc: "Export to CSV or send contacts straight to HubSpot, Salesforce, Zapier, or your own API and MCP." },
-  { icon: Layers, title: "Built into Scalelist", desc: "The list you build is contact ready in the same place. No exporting into another tool to clean it." },
-  { icon: Coins, title: "Pay only for what you reveal", desc: "Exploring and shaping your list is free. You spend credits when you reveal contact data." },
+  { icon: Filter, title: "Target by six axes", desc: "Title, seniority, industry, geography, company size, and tenure, all from one sentence." },
+  { icon: Mail, title: "Verified work emails", desc: "The professional email for each match, checked before it reaches your list." },
+  { icon: Phone, title: "Verified mobile numbers", desc: "Cell and direct-dial numbers, verified and ready for cold calling." },
 ];
 
 export function Features() {
@@ -15,13 +12,16 @@ export function Features() {
     <section className="py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl">
-          <span className="overline">What you get</span>
+          <span className="overline">The data</span>
           <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]">
-            Everything a B2B lead finder <span className="text-primary">should give you</span>.
+            Find and reveal <span className="text-primary">exactly who you need</span>.
           </h2>
+          <p className="mt-5 text-lg text-muted-foreground leading-relaxed max-w-2xl">
+            Every match comes with up to 15 data points, so you know who you're reaching before you spend a credit.
+          </p>
         </div>
 
-        <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
           {features.map((f, i) => (
             <div
               key={f.title}
