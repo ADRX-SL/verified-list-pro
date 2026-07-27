@@ -1,17 +1,12 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Navbar } from "@/components/scalelist/Navbar";
 import { Hero } from "@/components/scalelist/Hero";
-import { WhatIsAI } from "@/components/scalelist/WhatIsAI";
-import { HowItWorks } from "@/components/scalelist/HowItWorks";
 import { LogoBar } from "@/components/scalelist/LogoBar";
 import { Features } from "@/components/scalelist/Features";
 import { UseCases } from "@/components/scalelist/UseCases";
-import { PlainEnglish } from "@/components/scalelist/PlainEnglish";
-import { Testimonial } from "@/components/scalelist/Testimonial";
 import { Coverage } from "@/components/scalelist/Coverage";
-import { Integrations } from "@/components/scalelist/Integrations";
+import { WhoItsFor } from "@/components/scalelist/WhoItsFor";
 import { Comparison } from "@/components/scalelist/Comparison";
-import { Verified } from "@/components/scalelist/Verified";
 import { FAQ, faqs } from "@/components/scalelist/FAQ";
 import { CTABanner } from "@/components/scalelist/CTABanner";
 import { Footer } from "@/components/scalelist/Footer";
@@ -97,17 +92,12 @@ function Index() {
       <Navbar />
       <main>
         <Hero />
-        <WhatIsAI />
-        <HowItWorks />
         <LogoBar />
-        <Features />
         <UseCases />
-        <PlainEnglish />
-        <Testimonial />
+        <Features />
         <Coverage />
-        <Integrations />
+        <WhoItsFor />
         <Comparison />
-        <Verified />
         <FAQ />
         <CTABanner />
       </main>

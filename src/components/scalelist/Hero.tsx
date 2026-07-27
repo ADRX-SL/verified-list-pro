@@ -16,11 +16,11 @@ export function Hero() {
         <span className="overline">AI B2B LEAD FINDER</span>
 
         <h1 className="mt-6 text-5xl sm:text-6xl md:text-7xl font-extrabold tracking-tight leading-[1.05] text-foreground">
-          AI B2B lead finder: describe your ideal customer, get a <span className="text-primary">ready to use</span> list.
+          Build targeted lead lists with <span className="text-primary">AI</span>.
         </h1>
 
         <p className="mt-8 text-lg text-muted-foreground leading-relaxed max-w-2xl mx-auto">
-          Type who you are targeting in plain English and Scalelist's AI lead finder builds a matching list of contacts with verified work emails and mobile numbers. No filter mazes. No exporting from LinkedIn and cleaning spreadsheets.
+          Describe your ideal customer and get a ready-to-use list of verified work emails and mobile numbers.
         </p>
 
         <div className="mt-12 mx-auto max-w-2xl">

@@ -2,30 +2,30 @@ import { CheckCircle2, Coins, Download } from "lucide-react";
 
 const rows = [
   {
-    title: "Build an outbound list from scratch",
-    body: "You do not need names yet. Describe the persona and Scalelist returns matching contacts with emails and mobiles, ready for sequencing.",
+    title: "Describe your ideal customer",
+    body: "Write your target the way you'd say it to a colleague. No filter mazes, no query builder to learn.",
     bullets: [
-      "Describe role, industry, location, and company size",
-      "Review matching contacts with company context",
-      "Reveal verified emails and mobile numbers",
+      "Plain-English input",
+      "Role, industry, location, and company size",
+      "Refine and rerun in seconds",
     ],
   },
   {
-    title: "Spin up a fresh ICP list per campaign or client",
-    body: "Agencies and RevOps rebuild lists in seconds as targeting changes, without stacking filters or re-learning a query builder.",
+    title: "Target precisely, not approximately",
+    body: "Scalelist maps your sentence to structured criteria, so the list matches exactly who you meant.",
     bullets: [
-      "Save and reuse lists",
-      "Swap the persona and regenerate",
-      "Keep every client list separate and clean",
+      "Filter by title, seniority, industry, geography, and headcount",
+      "See the matching count before you spend a credit",
+      "Adjust and rebuild instantly",
     ],
   },
   {
-    title: "Find direct dials for cold calling worldwide",
-    body: "Filter to a persona and reveal verified cell and direct-dial numbers where most databases fall short. Scalelist delivers strong coverage worldwide, and is especially strong across APAC.",
+    title: "Activate anywhere",
+    body: "Reveal verified work emails and mobile numbers, then push the list into your stack in one click.",
     bullets: [
-      "Verified mobile and direct-dial numbers",
-      "Coverage across global markets, strong in APAC",
-      "Higher cell coverage than most databases",
+      "Verified emails and mobile numbers",
+      "Export to CSV or send to HubSpot, Salesforce, and Zapier",
+      "Or pull it via API and MCP",
     ],
   },
 ];
@@ -168,10 +168,13 @@ export function UseCases() {
     <section className="py-20 md:py-28">
       <div className="mx-auto max-w-7xl px-6">
         <div className="max-w-3xl">
-          <span className="overline">How you can use it</span>
+          <span className="overline">How it works</span>
           <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-foreground leading-[1.1]">
-            From an idea to an outbound list with <span className="text-primary">one lead finder tool</span>.
+            From one sentence to a <span className="text-primary">ready-to-send list</span>.
           </h2>
+          <p className="mt-5 text-lg text-muted-foreground leading-relaxed max-w-2xl">
+            Describe who you want to reach, and Lead Finder builds a verified, contact-ready list from Scalelist's database.
+          </p>
         </div>
 
         <div className="mt-16 space-y-20 md:space-y-28">
