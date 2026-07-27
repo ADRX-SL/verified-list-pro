@@ -1,4 +1,4 @@
-import { CheckCircle2 } from "lucide-react";
+import { ArrowRight, CheckCircle2, ShieldCheck, Star } from "lucide-react";
 
 const regions = [
   { label: "North America", note: "Verified work emails and mobile numbers" },
@@ -18,7 +18,7 @@ export function Coverage() {
             The verified contact data other tools miss, <span className="text-primary">worldwide</span>.
           </h2>
           <p className="mt-5 text-lg text-white/70 leading-relaxed">
-            Scalelist verifies every professional email and mobile number before it reaches your list. Up to <span className="font-semibold tabular-nums">95%</span> coverage and around <span className="font-semibold tabular-nums">99%</span> email accuracy on verified, weekly refreshed data, with particularly strong reach across APAC where many databases are thin.
+            Scalelist verifies every professional email and mobile number before it reaches your list. Up to <span className="font-semibold tabular-nums">95%</span> coverage, around <span className="font-semibold tabular-nums">99%</span> email accuracy, and under <span className="font-semibold tabular-nums">5%</span> bounce on verified, weekly refreshed data, with particularly strong reach across APAC where many databases are thin.
           </p>
         </div>
 
@@ -56,6 +56,39 @@ export function Coverage() {
             <p className="mt-5 text-2xl font-semibold leading-snug text-white">
               Around <span className="text-primary">99% email accuracy</span> on weekly refreshed data.
             </p>
+          </div>
+        </div>
+
+        <div className="mt-12 flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          <div className="flex flex-col sm:flex-row gap-3">
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm text-white">
+              <span className="flex items-center gap-0.5" aria-hidden>
+                {Array.from({ length: 5 }).map((_, i) => (
+                  <Star key={i} className="h-3.5 w-3.5 fill-current text-white" />
+                ))}
+              </span>
+              <span className="font-semibold tabular-nums">4.8/5</span>
+              <span className="text-white/70">Google</span>
+            </span>
+            <span className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm text-white">
+              <ShieldCheck className="h-4 w-4" aria-hidden />
+              <span>GDPR compliant</span>
+            </span>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-3">
+            <a
+              href="https://app.scalelist.com/auth/signup?redirectUrl=%2Fapp%2Fdashboard"
+              className="inline-flex w-full sm:w-auto items-center justify-center gap-2 rounded-full bg-primary px-8 py-4 text-base font-semibold text-primary-foreground transition-all hover:bg-primary-hover hover:gap-3 group"
+            >
+              Sign up for free
+              <ArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+            </a>
+            <a
+              href="https://form.typeform.com/to/lvQHcXGx"
+              className="inline-flex w-full sm:w-auto items-center justify-center rounded-full border border-white/20 bg-transparent px-8 py-4 text-base font-semibold text-white transition-colors hover:bg-white/10"
+            >
+              Talk to sales
+            </a>
           </div>
         </div>
       </div>
