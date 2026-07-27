@@ -117,9 +117,9 @@ function FiltersCard() {
 
 function ExportCard() {
   const rowsData = [
-    { name: "Sarah Chen", role: "CTO · San Francisco", mobile: "+1 415 555 0182" },
-    { name: "Marcus Lee", role: "VP Sales · Austin", mobile: "+1 512 555 0147" },
-    { name: "Priya Nair", role: "Sales Director · Chicago", mobile: "+1 312 555 0193" },
+    { name: "Sarah Chen", role: "CTO · Singapore", mobile: "+65 8123 4567" },
+    { name: "James Wu", role: "VP Sales · Sydney", mobile: "+61 412 345 678" },
+    { name: "Aarav Mehta", role: "Head of Growth · Tokyo", mobile: "+81 90 1234 5678" },
   ];
   return (
     <div className="rounded-2xl border border-border bg-card p-5 sm:p-6 shadow-sm">
@@ -128,7 +128,7 @@ function ExportCard() {
           <Download className="h-3.5 w-3.5 text-primary" />
           <span className="overline">Enriched export</span>
         </div>
-        <span className="font-semibold tabular-nums text-[11px] text-muted-foreground">us-cto-q3.csv</span>
+        <span className="font-semibold tabular-nums text-[11px] text-muted-foreground">apac-leads-q3.csv</span>
       </div>
 
       <div className="mt-4 overflow-hidden rounded-xl border border-border">
