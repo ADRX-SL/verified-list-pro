@@ -3,7 +3,7 @@ import { ArrowRight, CheckCircle2, ShieldCheck, Star } from "lucide-react";
 const regions = [
   { label: "North America", note: "Verified work emails and mobile numbers" },
   { label: "EMEA", note: "Verified work emails and mobile numbers" },
-  { label: "APAC", note: "Verified work emails and mobile numbers, particularly strong reach" },
+  { label: "APAC", note: "Verified work emails and mobile numbers" },
 ];
 
 export function Coverage() {
@@ -18,7 +18,7 @@ export function Coverage() {
             The verified contact data other tools miss, <span className="text-primary">worldwide</span>.
           </h2>
           <p className="mt-5 text-lg text-white/70 leading-relaxed">
-            Scalelist verifies every professional email and mobile number before it reaches your list. Up to <span className="font-semibold tabular-nums">95%</span> coverage, around <span className="font-semibold tabular-nums">99%</span> email accuracy, and under <span className="font-semibold tabular-nums">5%</span> bounce on verified, weekly refreshed data, with particularly strong reach across APAC where many databases are thin.
+            Scalelist verifies every professional email and mobile number before it reaches your list. Up to <span className="font-semibold tabular-nums">95%</span> coverage, around <span className="font-semibold tabular-nums">99%</span> email accuracy, and under <span className="font-semibold tabular-nums">5%</span> bounce on verified, weekly refreshed data.
           </p>
         </div>
 

@@ -1,4 +1,4 @@
-import { CheckCircle2, Coins, Download } from "lucide-react";
+import { ArrowRight, CheckCircle2, Coins, Download } from "lucide-react";
 
 const rows = [
   {
@@ -9,6 +9,7 @@ const rows = [
       "Role, industry, location, and company size",
       "Refine and rerun in seconds",
     ],
+    cta: "Try for free",
   },
   {
     title: "Target precisely, not approximately",
@@ -18,6 +19,7 @@ const rows = [
       "See the matching count before you spend a credit",
       "Adjust and rebuild instantly",
     ],
+    cta: "Sign up for free",
   },
   {
     title: "Activate anywhere",
@@ -27,6 +29,7 @@ const rows = [
       "Export to CSV or send to HubSpot, Salesforce, and Zapier",
       "Or pull it via API and MCP",
     ],
+    cta: "Get started for free",
   },
 ];
 
@@ -200,6 +203,13 @@ export function UseCases() {
                       </li>
                     ))}
                   </ul>
+                  <a
+                    href="https://app.scalelist.com/auth/signup?redirectUrl=%2Fapp%2Fdashboard"
+                    className="mt-6 inline-flex items-center gap-2 text-primary font-semibold hover:gap-3 transition-all group"
+                  >
+                    {r.cta}
+                    <ArrowRight className="h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </a>
                 </div>
                 <div className={mediaRight ? "lg:order-2" : "lg:order-1"}>
                   <Visual />

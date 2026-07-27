@@ -14,7 +14,7 @@ import { Footer } from "@/components/scalelist/Footer";
 
 const TITLE = "AI B2B Lead Finder: Build Verified Prospect Lists in Plain English | Scalelist";
 const DESCRIPTION =
-  "Scalelist is an AI B2B lead finder. Describe your ideal customer in plain English and get a ready to use list with verified work emails and mobile numbers worldwide, with strong APAC coverage. Try free.";
+  "Scalelist is an AI B2B lead finder. Describe your ideal customer in plain English and get a ready to use list with verified work emails and mobile numbers in the US and worldwide. Try free.";
 
 const faqJsonLd = {
   "@context": "https://schema.org",
