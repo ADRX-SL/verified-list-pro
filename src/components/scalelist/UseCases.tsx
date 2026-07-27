@@ -20,12 +20,12 @@ const rows = [
     ],
   },
   {
-    title: "Find direct dials for cold calling across the United States",
-    body: "Filter to a persona and reveal verified US cell and direct-dial numbers where most databases fall short. Scalelist delivers strong nationwide coverage so your reps reach real American decision makers.",
+    title: "Find direct dials for cold calling worldwide",
+    body: "Filter to a persona and reveal verified cell and direct-dial numbers where most databases fall short. Scalelist delivers strong coverage worldwide, and is especially strong across APAC.",
     bullets: [
-      "Verified US mobile and direct-dial numbers",
-      "Coverage across all 50 states",
-      "Higher US cell coverage than most databases",
+      "Verified mobile and direct-dial numbers",
+      "Coverage across global markets, strong in APAC",
+      "Higher cell coverage than most databases",
     ],
   },
 ];
@@ -42,13 +42,13 @@ function PromptCard() {
         <span className="font-semibold tabular-nums text-[10px] text-white/40">scalelist › search</span>
       </div>
       <p className="mt-6 font-semibold tabular-nums text-sm leading-relaxed text-[#EAF1FB]">
-        <span className="text-primary">$</span> find CTOs in Financial Services companies in the US with over <span className="text-white font-semibold">500</span> employees
+        <span className="text-primary">$</span> find Heads of Growth in SaaS companies in APAC with over <span className="text-white font-semibold">200</span> employees
       </p>
       <div className="mt-6 rounded-xl border border-white/10 bg-white/[0.03] p-4">
         <div className="flex items-center justify-between">
           <div className="min-w-0">
             <div className="text-sm font-semibold truncate">Sarah Chen</div>
-            <div className="text-xs text-white/60 truncate">CTO · Finovate Capital · New York</div>
+            <div className="text-xs text-white/60 truncate">CTO · Finovate · Singapore</div>
           </div>
           <div className="flex items-center gap-1.5 shrink-0">
             <span className="rounded-md bg-white/10 text-white px-2 py-1 text-[10px] font-semibold tabular-nums">EMAIL</span>
@@ -64,12 +64,12 @@ function PromptCard() {
 }
 
 function FiltersCard() {
-  const chips = ["SaaS", "Series B+", "50–500", "Germany", "France", "UK", "VP Engineering", "CTO"];
+  const chips = ["SaaS", "Series B+", "50–500", "Singapore", "Australia", "Japan", "VP Engineering", "CTO"];
   return (
     <div className="rounded-2xl border border-border bg-card p-6 sm:p-8 shadow-sm">
       <div className="flex items-center justify-between">
         <span className="overline">Criteria</span>
-        <span className="font-semibold tabular-nums text-xs text-muted-foreground">campaign · q3-emea</span>
+        <span className="font-semibold tabular-nums text-xs text-muted-foreground">campaign · q3-apac</span>
       </div>
 
       <div className="mt-5 space-y-4">
