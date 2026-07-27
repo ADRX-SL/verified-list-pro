@@ -2,9 +2,9 @@ import { useState } from "react";
 import { ArrowRight, Coins } from "lucide-react";
 
 const examples = [
+  "Heads of Sales at SaaS companies in Singapore, 50 to 200 employees",
   "Founders of software companies in San Francisco, 50 to 200 employees",
-  "Owners of retail companies in Texas with under 200 people",
-  "VPs of Engineering at Series B SaaS companies in New York",
+  "Owners of retail companies in Australia with under 200 people",
 ];
 
 export function Hero() {
@@ -29,7 +29,7 @@ export function Hero() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               rows={3}
-              placeholder="CTOs in Financial Services companies in the US with over 500 employees"
+                placeholder="Heads of Growth at fintech companies in APAC with over 200 employees"
               className="w-full resize-none rounded-2xl bg-transparent px-4 py-3 text-base text-foreground placeholder:text-muted-foreground/70 outline-none"
             />
             <div className="flex flex-col sm:flex-row sm:justify-between sm:items-center gap-3 mt-2 px-2">

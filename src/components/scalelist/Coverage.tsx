@@ -1,17 +1,10 @@
-const regions = [
-  { label: "North America", email: 92, mobile: 87 },
-  { label: "EMEA", email: 89, mobile: 73 },
-  { label: "APAC", email: 76, mobile: 75 },
-  { label: "Average across all three regions", email: 85, mobile: 77, avg: true },
-];
+import { CheckCircle2 } from "lucide-react";
 
-function Bar({ pct, color }: { pct: number; color: string }) {
-  return (
-    <div className="h-1.5 w-full rounded-full bg-white/10 overflow-hidden">
-      <div className="h-full rounded-full" style={{ width: `${pct}%`, backgroundColor: color }} />
-    </div>
-  );
-}
+const regions = [
+  { label: "North America", note: "Verified work emails and mobile numbers" },
+  { label: "EMEA", note: "Verified work emails and mobile numbers" },
+  { label: "APAC", note: "Verified work emails and mobile numbers, particularly strong reach" },
+];
 
 export function Coverage() {
   return (
@@ -22,44 +15,32 @@ export function Coverage() {
             Coverage
           </span>
           <h2 className="mt-5 text-4xl md:text-5xl font-extrabold tracking-tight text-white leading-[1.1]">
-            The verified <span className="text-primary">US contact data</span> other tools miss.
+            The verified contact data other tools miss, <span className="text-primary">worldwide</span>.
           </h2>
           <p className="mt-5 text-lg text-white/70 leading-relaxed">
-            We ran the same lead lists through <span className="font-semibold tabular-nums">8</span> B2B data providers, leading with the United States. Scalelist returned the highest coverage of any tool tested, with strong verified US emails and mobile numbers, and held that lead across EMEA and APAC too.
+            Scalelist verifies every professional email and mobile number before it reaches your list. Up to <span className="font-semibold tabular-nums">95%</span> coverage and around <span className="font-semibold tabular-nums">99%</span> email accuracy on verified, weekly refreshed data, with particularly strong reach across APAC where many databases are thin.
           </p>
         </div>
 
         <div className="mt-16 grid grid-cols-1 lg:grid-cols-[1.4fr_1fr] gap-6 items-start">
           <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-6 sm:p-10">
-            <div className="flex items-center justify-end gap-6 text-[10px] font-semibold uppercase tracking-widest text-white/60 mb-6">
-              <span className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full" style={{ backgroundColor: "#007AFF" }} /> Email
-              </span>
-              <span className="flex items-center gap-2">
-                <span className="h-2 w-2 rounded-full bg-white" /> Mobile
-              </span>
+            <div className="text-[10px] font-semibold uppercase tracking-widest text-white/60 mb-6">
+              Verified coverage by region
             </div>
-            <div className="space-y-6">
+            <div className="space-y-4">
               {regions.map((r) => (
-                <div key={r.label} className={r.avg ? "pt-6 border-t border-white/10" : ""}>
-                  <div className="flex items-baseline justify-between gap-4 mb-2.5">
-                    <span className={`text-sm sm:text-base text-white ${r.avg ? "font-semibold" : ""}`}>
-                      {r.label}
-                    </span>
-                    <span className="font-semibold tabular-nums text-xs text-white/70 tabular-nums shrink-0">
-                      {r.email}% <span className="text-white/30">·</span> {r.mobile}%
-                    </span>
-                  </div>
-                  <div className="space-y-2">
-                    <Bar pct={r.email} color="#007AFF" />
-                    <Bar pct={r.mobile} color="#FFFFFF" />
+                <div
+                  key={r.label}
+                  className="flex items-start gap-4 rounded-xl border border-white/10 bg-white/[0.02] p-5"
+                >
+                  <CheckCircle2 className="h-5 w-5 shrink-0 mt-0.5" style={{ color: "var(--color-verify)" }} aria-hidden />
+                  <div className="min-w-0">
+                    <div className="text-base font-semibold text-white">{r.label}</div>
+                    <div className="mt-1 text-sm text-white/70">{r.note}</div>
                   </div>
                 </div>
               ))}
             </div>
-            <p className="mt-8 font-semibold tabular-nums text-[11px] text-white/40">
-              Same lead lists · 8 providers · NA, EMEA, APAC.
-            </p>
           </div>
 
           <div className="rounded-2xl border border-white/10 bg-white/[0.03] p-8 sm:p-10">
@@ -67,13 +48,13 @@ export function Coverage() {
               Signal
             </span>
             <div className="mt-6 font-semibold tabular-nums text-6xl font-bold text-white leading-none">
-              87%
+              95%
             </div>
             <p className="mt-5 text-[11px] font-semibold uppercase tracking-widest text-white/60">
-              Verified US mobile coverage
+              Verified coverage worldwide
             </p>
             <p className="mt-5 text-2xl font-semibold leading-snug text-white">
-              <span className="text-primary">92% email hit rate</span> on US B2B contacts.
+              Around <span className="text-primary">99% email accuracy</span> on weekly refreshed data.
             </p>
           </div>
         </div>
