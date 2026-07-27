@@ -9,6 +9,7 @@ import { WhoItsFor } from "@/components/scalelist/WhoItsFor";
 import { Comparison } from "@/components/scalelist/Comparison";
 import { FAQ, faqs } from "@/components/scalelist/FAQ";
 import { CTABanner } from "@/components/scalelist/CTABanner";
+import { InlineCTA } from "@/components/scalelist/InlineCTA";
 import { Footer } from "@/components/scalelist/Footer";
 
 const TITLE = "AI B2B Lead Finder: Build Verified Prospect Lists in Plain English | Scalelist";
