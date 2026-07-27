@@ -1,7 +1,7 @@
 const stats = [
-  { value: "92%", label: "Email hit rate" },
-  { value: "87%", label: "Mobile coverage, NA" },
-  { value: "174", label: "Mobiles found in 5 min" },
+  { value: "Up to 95%", label: "B2B emails and mobiles worldwide" },
+  { value: "~99%", label: "Email verification accuracy" },
+  { value: "<5%", label: "Bounce rate" },
   { value: "15", label: "Data points per contact" },
 ];
 
@@ -15,7 +15,7 @@ export function Stats() {
             The list you get, <span className="text-primary">measured</span>.
           </h2>
           <p className="mt-5 text-lg text-muted-foreground leading-relaxed">
-            The lead finder software, measured on the same input lists across eight B2B data providers. Every miss costs zero credits.
+            Verified, weekly refreshed data you can actually send to.
           </p>
         </div>
 
