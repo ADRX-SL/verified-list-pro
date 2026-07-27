@@ -95,10 +95,15 @@ function Index() {
         <Hero />
         <LogoBar />
         <UseCases />
+        <InlineCTA
+          headline="Turn your next sentence into a lead list."
+          sub="Describe your ideal customer and get verified emails and mobile numbers in seconds."
+        />
         <Features />
         <Coverage />
         <WhoItsFor />
         <Comparison />
+        <InlineCTA headline="Start building targeted lists today." />
         <FAQ />
         <CTABanner />
       </main>
