@@ -96,6 +96,7 @@ function Index() {
         <Hero />
         <LogoBar />
         <UseCases />
+        <VideoDemo />
         <InlineCTA
           headline="Turn your next sentence into a lead list."
           sub="Describe your ideal customer and get verified emails and mobile numbers in seconds."
