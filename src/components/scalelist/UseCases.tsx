@@ -180,6 +180,18 @@ export function UseCases() {
           </p>
         </div>
 
+        <div className="mt-12 flex justify-center">
+          <div className="w-full max-w-4xl aspect-video rounded-2xl overflow-hidden border border-border shadow-sm bg-black">
+            <iframe
+              className="w-full h-full"
+              src="https://www.youtube.com/embed/deDbi8PLL-s"
+              title="Scalelist Lead Finder demo"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowFullScreen
+            />
+          </div>
+        </div>
+
         <div className="mt-16 space-y-20 md:space-y-28">
           {rows.map((r, i) => {
             const mediaRight = i % 2 === 0;
