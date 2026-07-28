@@ -22,10 +22,16 @@ export function Comparison() {
         <div className="mt-16 rounded-2xl border border-border bg-card shadow-sm overflow-hidden">
           <div className="grid grid-cols-1 md:grid-cols-2">
             <div className="p-6 md:p-8 border-b md:border-b-0 md:border-r border-border">
-              <div className="text-[11px] font-semibold uppercase tracking-widest text-muted-foreground">The old way</div>
+              <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-widest text-muted-foreground">
+                The old way
+                <X className="h-4 w-4 text-destructive" aria-hidden />
+              </div>
             </div>
             <div className="p-6 md:p-8 bg-primary/5">
-              <div className="text-[11px] font-semibold uppercase tracking-widest text-primary">Scalelist</div>
+              <div className="flex items-center gap-2 text-[11px] font-semibold uppercase tracking-widest text-primary">
+                Scalelist
+                <Check className="h-4 w-4 text-green-500" aria-hidden />
+              </div>
             </div>
           </div>
           {rows.map((r, i) => (
