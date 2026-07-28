@@ -184,7 +184,7 @@ export function UseCases() {
           <div className="w-full max-w-4xl aspect-video rounded-2xl overflow-hidden border border-border shadow-sm bg-black">
             <iframe
               className="w-full h-full"
-              src="https://www.youtube.com/embed/deDbi8PLL-s"
+              src="https://www.youtube.com/embed/ZTFRRZC93CQ"
               title="Scalelist Lead Finder demo"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
