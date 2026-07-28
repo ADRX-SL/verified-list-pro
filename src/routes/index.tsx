@@ -4,7 +4,7 @@ import { Hero } from "@/components/scalelist/Hero";
 import { LogoBar } from "@/components/scalelist/LogoBar";
 import { Features } from "@/components/scalelist/Features";
 import { UseCases } from "@/components/scalelist/UseCases";
-import { VideoDemo } from "@/components/scalelist/VideoDemo";
+
 import { Coverage } from "@/components/scalelist/Coverage";
 import { WhoItsFor } from "@/components/scalelist/WhoItsFor";
 import { Comparison } from "@/components/scalelist/Comparison";
@@ -96,7 +96,7 @@ function Index() {
         <Hero />
         <LogoBar />
         <UseCases />
-        <VideoDemo />
+        
         <InlineCTA
           headline="Turn your next sentence into a lead list."
           sub="Describe your ideal customer and get verified emails and mobile numbers in seconds."
